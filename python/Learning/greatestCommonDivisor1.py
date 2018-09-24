@@ -1,5 +1,4 @@
 # # Algorithm 1
-
 # # Defining the greatest common divisor funtion of two numbers
 # def gcd(number1,number2):
 
@@ -70,19 +69,19 @@
 
 # Recursion error taking place
 
-# # Algorithm 5
 
-def gcd(number1, number2):
-    if number1 < number2:
-        (number1,number2) = (number2,number1)
+# # Algorithm 5
+# def gcd(number1, number2):
+#     if number1 < number2:
+#         (number1,number2) = (number2,number1)
     
-    while (number1 % number2) != 0:
-        difference = number1 - number2
-        (number1, number2) = (max(number2,difference), min(number2,difference))
-        print(difference, number2)
-    return(number2)
+#     while (number1 % number2) != 0:
+#         difference = number1 - number2
+#         (number1, number2) = (max(number2,difference), min(number2,difference))
+#         print(difference, number2)
+#     return(number2)
 
 #Test Cases :
 #gcd(5,2)
 #gcd(120,40)
-gcd(101,2)
+#gcd(101,2)
